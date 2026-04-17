@@ -1,0 +1,25 @@
+{
+  "name": "yt-context-sidebar",
+  "version": "1.0.0",
+  "description": "YouTube flow preservation extension — surfaces term definitions without leaving the video",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "test": "bun test tests/",
+    "test:evals": "bun test tests/evals/"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^28.0.1",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@wxt-dev/module-react": "^1.2.2",
+    "jsdom": "^29.0.2",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0",
+    "wxt": "^0.20.22"
+  },
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  }
+}

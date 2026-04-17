@@ -1,0 +1,3 @@
+[test]
+# Use Happy DOM for tests that need browser globals (DOMParser etc.)
+dom = "happy-dom"
